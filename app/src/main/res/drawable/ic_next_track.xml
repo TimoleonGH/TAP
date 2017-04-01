@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <group
+        android:name="@string/pp_group"
+        android:pivotX="12"
+        android:pivotY="12">
+
+        <path
+            android:name="@string/next_track"
+            android:pathData="@string/path_next_track"
+            android:strokeWidth="2"
+            android:strokeLineCap="square"
+            android:strokeColor="@color/colorWhite"
+            android:fillColor="@color/colorWhite"/>
+
+    </group>
+
+</vector>
